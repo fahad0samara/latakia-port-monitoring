@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-08-10T22:59:14Z",
+  "data_coverage": {
+    "start": "2022-01-02",
+    "end": "2026-08-06",
+    "valid_scenes": 328,
+    "total_scenes_catalog": 446,
+    "months_with_data": 56
+  },
+  "detections": {
+    "total_vessel_records": 6678,
+    "by_year": {
+      "2022": 1377,
+      "2023": 1155,
+      "2024": 1197,
+      "2025": 1417,
+      "2026": 1532
+    }
+  },
+  "activity": {
+    "latest_month": "2026-08",
+    "latest_ships_per_obs": 15.96,
+    "peak_month": "2026-02",
+    "peak_ships_per_obs": 25.67,
+    "period_mean": 12.96
+  },
+  "validation": {
+    "pairs_s1_s2": 95,
+    "mean_snr_db": 26.2
+  }
+}

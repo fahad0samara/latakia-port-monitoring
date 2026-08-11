@@ -1,0 +1,255 @@
+{
+ "monthly_rows": 56,
+ "months_with_data": 56,
+ "months_no_data": [],
+ "mk_tau": 0.092,
+ "mk_p": 0.319,
+ "mk_direction": "increase",
+ "sen_slope_units_per_month": 0.032,
+ "regimes": {
+  "pre_2023": {
+   "label": "2022 (baseline)",
+   "range": [
+    "2022-01",
+    "2022-12"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 12.76,
+    "mean_after": 12.76,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -2.76,
+     2.88
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2023": {
+   "label": "2023",
+   "range": [
+    "2023-01",
+    "2023-12"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 12.05,
+    "mean_after": 12.05,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -2.09,
+     2.06
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2024": {
+   "label": "2024",
+   "range": [
+    "2024-01",
+    "2024-12"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 12.18,
+    "mean_after": 12.18,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -1.59,
+     1.64
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2025": {
+   "label": "2025",
+   "range": [
+    "2025-01",
+    "2025-12"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 11.67,
+    "mean_after": 11.67,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -2.55,
+     2.79
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2026": {
+   "label": "2026 (to Aug)",
+   "range": [
+    "2026-01",
+    "2026-08"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 8,
+    "n_after": 8,
+    "mean_before": 17.75,
+    "mean_after": 17.75,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -4.57,
+     4.8
+    ],
+    "direction": "decrease"
+   }
+  },
+  "pre_dec2024": {
+   "label": "before Dec-2024",
+   "range": [
+    "2022-01",
+    "2024-11"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 35,
+    "n_after": 35,
+    "mean_before": 12.28,
+    "mean_after": 12.28,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -1.44,
+     1.35
+    ],
+    "direction": "decrease"
+   }
+  },
+  "post_dec2024": {
+   "label": "after Dec-2024",
+   "range": [
+    "2024-12",
+    "2026-08"
+   ],
+   "test": {
+    "valid": true,
+    "n_before": 21,
+    "n_after": 21,
+    "mean_before": 14.1,
+    "mean_after": 14.1,
+    "diff": 0.0,
+    "diff_pct": 0.0,
+    "p_value": 1.0,
+    "ci95": [
+     -2.92,
+     3.01
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2023_vs_2022": {
+   "label": "y2022 (baseline) vs 2023",
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 12.76,
+    "mean_after": 12.05,
+    "diff": -0.71,
+    "diff_pct": -5.5,
+    "p_value": 0.8624,
+    "ci95": [
+     -3.19,
+     1.58
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2024_vs_2023": {
+   "label": "2024 vs 2023",
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 12.05,
+    "mean_after": 12.18,
+    "diff": 0.12,
+    "diff_pct": 1.0,
+    "p_value": 0.8398,
+    "ci95": [
+     -1.7,
+     1.92
+    ],
+    "direction": "increase"
+   }
+  },
+  "y2025_vs_2024": {
+   "label": "2025 vs 2024",
+   "test": {
+    "valid": true,
+    "n_before": 12,
+    "n_after": 12,
+    "mean_before": 12.18,
+    "mean_after": 11.67,
+    "diff": -0.51,
+    "diff_pct": -4.2,
+    "p_value": 0.2852,
+    "ci95": [
+     -2.54,
+     1.8
+    ],
+    "direction": "decrease"
+   }
+  },
+  "y2026_vs_2025": {
+   "label": "2026 (Jan-Aug) vs 2025 (Jan-Aug)",
+   "test": {
+    "valid": true,
+    "n_before": 8,
+    "n_after": 8,
+    "mean_before": 10.5,
+    "mean_after": 17.75,
+    "diff": 7.25,
+    "diff_pct": 69.0,
+    "p_value": 0.01,
+    "ci95": [
+     3.46,
+     11.11
+    ],
+    "direction": "increase"
+   }
+  },
+  "post_vs_pre_dec2024": {
+   "label": "after Dec-2024 vs before Dec-2024",
+   "test": {
+    "valid": true,
+    "n_before": 35,
+    "n_after": 21,
+    "mean_before": 12.28,
+    "mean_after": 14.1,
+    "diff": 1.83,
+    "diff_pct": 14.9,
+    "p_value": 0.3057,
+    "ci95": [
+     -0.35,
+     4.08
+    ],
+    "direction": "increase"
+   }
+  }
+ }
+}

@@ -1,0 +1,156 @@
+[
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_032_01",
+  "lon": 35.771599,
+  "lat": 35.5372,
+  "utm_x": 751281.0,
+  "utm_y": 3936153.3,
+  "area_px": 28,
+  "length_m": 89.0,
+  "width_m": 31.0,
+  "peak_db": 6.86,
+  "mean_db": 0.05,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 9.0,
+  "demerged": false,
+  "sl": [
+   495,
+   505,
+   681,
+   686
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_036_01",
+  "lon": 35.758614,
+  "lat": 35.529149,
+  "utm_x": 750128.4,
+  "utm_y": 3935227.0,
+  "area_px": 222,
+  "length_m": 232.0,
+  "width_m": 110.0,
+  "peak_db": 9.71,
+  "mean_db": 2.55,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 638.0,
+  "demerged": true,
+  "sl": [
+   552,
+   750,
+   531,
+   619
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_036_02",
+  "lon": 35.762911,
+  "lat": 35.51701,
+  "utm_x": 750555.9,
+  "utm_y": 3933891.2,
+  "area_px": 225,
+  "length_m": 255.0,
+  "width_m": 134.0,
+  "peak_db": 6.9,
+  "mean_db": -1.27,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 379.0,
+  "demerged": true,
+  "sl": [
+   552,
+   750,
+   531,
+   619
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_041_01",
+  "lon": 35.769784,
+  "lat": 35.528073,
+  "utm_x": 751144.9,
+  "utm_y": 3935136.0,
+  "area_px": 24,
+  "length_m": 64.0,
+  "width_m": 28.0,
+  "peak_db": 4.88,
+  "mean_db": -1.87,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 10.0,
+  "demerged": false,
+  "sl": [
+   599,
+   605,
+   667,
+   674
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_044_01",
+  "lon": 35.769285,
+  "lat": 35.523874,
+  "utm_x": 751112.7,
+  "utm_y": 3934669.0,
+  "area_px": 90,
+  "length_m": 147.0,
+  "width_m": 70.0,
+  "peak_db": 5.25,
+  "mean_db": 0.12,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 23.0,
+  "demerged": true,
+  "sl": [
+   639,
+   664,
+   660,
+   672
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_044_02",
+  "lon": 35.769021,
+  "lat": 35.523069,
+  "utm_x": 751091.3,
+  "utm_y": 3934578.9,
+  "area_px": 56,
+  "length_m": 99.0,
+  "width_m": 67.0,
+  "peak_db": 5.22,
+  "mean_db": 0.38,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 19.0,
+  "demerged": true,
+  "sl": [
+   639,
+   664,
+   660,
+   672
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20240721T153403_202_053_01",
+  "lon": 35.764933,
+  "lat": 35.512978,
+  "utm_x": 750751.9,
+  "utm_y": 3933449.0,
+  "area_px": 123,
+  "length_m": 237.0,
+  "width_m": 64.0,
+  "peak_db": 17.39,
+  "mean_db": 4.6,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 13.0,
+  "demerged": true,
+  "sl": [
+   756,
+   784,
+   623,
+   640
+  ],
+  "zone": 2
+ }
+]

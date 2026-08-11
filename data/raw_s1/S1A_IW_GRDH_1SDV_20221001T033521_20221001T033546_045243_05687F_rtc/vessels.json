@@ -1,0 +1,68 @@
+[
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20221001T033521_202_009_01",
+  "lon": 35.744343,
+  "lat": 35.529921,
+  "utm_x": 748831.8,
+  "utm_y": 3935276.6,
+  "area_px": 258,
+  "length_m": 238.0,
+  "width_m": 124.0,
+  "peak_db": 8.7,
+  "mean_db": 0.73,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 1927.0,
+  "demerged": false,
+  "sl": [
+   580,
+   597,
+   426,
+   452
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20221001T033521_202_010_01",
+  "lon": 35.768583,
+  "lat": 35.512407,
+  "utm_x": 751084.8,
+  "utm_y": 3933394.9,
+  "area_px": 149,
+  "length_m": 195.0,
+  "width_m": 106.0,
+  "peak_db": 6.72,
+  "mean_db": -1.55,
+  "vh_bright_frac": 0.99,
+  "dist_port_m": 42.0,
+  "demerged": true,
+  "sl": [
+   751,
+   787,
+   657,
+   693
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1A_IW_GRDH_1SDV_20221001T033521_202_010_02",
+  "lon": 35.770833,
+  "lat": 35.514145,
+  "utm_x": 751283.5,
+  "utm_y": 3933593.5,
+  "area_px": 152,
+  "length_m": 187.0,
+  "width_m": 104.0,
+  "peak_db": 4.57,
+  "mean_db": -4.15,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 34.0,
+  "demerged": true,
+  "sl": [
+   751,
+   787,
+   657,
+   693
+  ],
+  "zone": 2
+ }
+]

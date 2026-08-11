@@ -1,0 +1,134 @@
+[
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20250329T154048_202_030_01",
+  "lon": 35.769801,
+  "lat": 35.528029,
+  "utm_x": 751146.6,
+  "utm_y": 3935131.3,
+  "area_px": 92,
+  "length_m": 134.0,
+  "width_m": 92.0,
+  "peak_db": 5.61,
+  "mean_db": -3.78,
+  "vh_bright_frac": 0.99,
+  "dist_port_m": 14.0,
+  "demerged": false,
+  "sl": [
+   599,
+   610,
+   662,
+   679
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20250329T154048_202_039_01",
+  "lon": 35.767455,
+  "lat": 35.517118,
+  "utm_x": 750967.8,
+  "utm_y": 3933914.7,
+  "area_px": 105,
+  "length_m": 182.0,
+  "width_m": 85.0,
+  "peak_db": 10.07,
+  "mean_db": -0.84,
+  "vh_bright_frac": 0.99,
+  "dist_port_m": 12.0,
+  "demerged": true,
+  "sl": [
+   688,
+   787,
+   636,
+   693
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20250329T154048_202_039_02",
+  "lon": 35.769536,
+  "lat": 35.512537,
+  "utm_x": 751170.9,
+  "utm_y": 3933411.8,
+  "area_px": 107,
+  "length_m": 164.0,
+  "width_m": 101.0,
+  "peak_db": 9.04,
+  "mean_db": -0.61,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 14.0,
+  "demerged": true,
+  "sl": [
+   688,
+   787,
+   636,
+   693
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20250329T154048_202_039_03",
+  "lon": 35.767157,
+  "lat": 35.514307,
+  "utm_x": 750949.5,
+  "utm_y": 3933602.1,
+  "area_px": 158,
+  "length_m": 210.0,
+  "width_m": 94.0,
+  "peak_db": 8.19,
+  "mean_db": -1.95,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 25.0,
+  "demerged": true,
+  "sl": [
+   688,
+   787,
+   636,
+   693
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20250329T154048_202_039_04",
+  "lon": 35.768237,
+  "lat": 35.519068,
+  "utm_x": 751032.7,
+  "utm_y": 3934133.0,
+  "area_px": 79,
+  "length_m": 185.0,
+  "width_m": 56.0,
+  "peak_db": 7.25,
+  "mean_db": -3.21,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 10.0,
+  "demerged": true,
+  "sl": [
+   688,
+   787,
+   636,
+   693
+  ],
+  "zone": 2
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20250329T154048_202_040_01",
+  "lon": 35.769914,
+  "lat": 35.514432,
+  "utm_x": 751199.2,
+  "utm_y": 3933622.9,
+  "area_px": 47,
+  "length_m": 130.0,
+  "width_m": 40.0,
+  "peak_db": 4.83,
+  "mean_db": -2.08,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 9.0,
+  "demerged": false,
+  "sl": [
+   751,
+   756,
+   669,
+   683
+  ],
+  "zone": 2
+ }
+]

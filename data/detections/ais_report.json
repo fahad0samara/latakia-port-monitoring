@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-08-11T04:53:22Z",
+  "ais_available": false,
+  "ais_files": [],
+  "ais_messages": 0,
+  "ais_time_span": [],
+  "matching": {
+    "max_dist_m": 600.0,
+    "max_time_min": 45.0,
+    "n_detections": 6678,
+    "n_matched": 0,
+    "match_rate": 0.0
+  },
+  "dimension_estimate": {
+    "total_classified": 6678,
+    "by_type": {
+      "بضائع عامة": 3123,
+      "صبّ جاف/بضائع": 2104,
+      "صغير/صيد": 809,
+      "حاويات/ناقلة كبيرة": 522,
+      "كبيرة جدًا (حاويات/ناقلة)": 120
+    },
+    "by_confidence": {
+      "متوسطة": 4052,
+      "منخفضة": 2626
+    },
+    "note": "تقدير من أبعاد SAR فقط — ليس بديلاً عن AIS"
+  }
+}

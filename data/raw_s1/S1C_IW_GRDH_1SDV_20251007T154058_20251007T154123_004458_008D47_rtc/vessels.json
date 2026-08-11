@@ -1,0 +1,134 @@
+[
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20251007T154058_202_013_01",
+  "lon": 35.740828,
+  "lat": 35.53232,
+  "utm_x": 748505.6,
+  "utm_y": 3935533.8,
+  "area_px": 125,
+  "length_m": 150.0,
+  "width_m": 100.0,
+  "peak_db": 9.99,
+  "mean_db": 1.29,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 2274.0,
+  "demerged": true,
+  "sl": [
+   555,
+   573,
+   401,
+   421
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20251007T154058_202_013_02",
+  "lon": 35.741859,
+  "lat": 35.532492,
+  "utm_x": 748598.6,
+  "utm_y": 3935555.5,
+  "area_px": 76,
+  "length_m": 90.0,
+  "width_m": 90.0,
+  "peak_db": 8.22,
+  "mean_db": 1.63,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 2186.0,
+  "demerged": true,
+  "sl": [
+   555,
+   573,
+   401,
+   421
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20251007T154058_202_020_01",
+  "lon": 35.731655,
+  "lat": 35.521543,
+  "utm_x": 747706.9,
+  "utm_y": 3934315.0,
+  "area_px": 129,
+  "length_m": 140.0,
+  "width_m": 110.0,
+  "peak_db": 6.02,
+  "mean_db": -1.51,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 2986.0,
+  "demerged": true,
+  "sl": [
+   673,
+   690,
+   321,
+   342
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20251007T154058_202_025_01",
+  "lon": 35.778304,
+  "lat": 35.499168,
+  "utm_x": 752008.1,
+  "utm_y": 3931950.9,
+  "area_px": 587,
+  "length_m": 347.0,
+  "width_m": 250.0,
+  "peak_db": 4.7,
+  "mean_db": -3.39,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 777.0,
+  "demerged": true,
+  "sl": [
+   870,
+   952,
+   692,
+   797
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20251007T154058_202_025_02",
+  "lon": 35.7766,
+  "lat": 35.500493,
+  "utm_x": 751849.3,
+  "utm_y": 3932093.5,
+  "area_px": 206,
+  "length_m": 177.0,
+  "width_m": 170.0,
+  "peak_db": 4.39,
+  "mean_db": -3.56,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 581.0,
+  "demerged": true,
+  "sl": [
+   870,
+   952,
+   692,
+   797
+  ],
+  "zone": 1
+ },
+ {
+  "vessel_id": "S1C_IW_GRDH_1SDV_20251007T154058_202_025_03",
+  "lon": 35.775855,
+  "lat": 35.501541,
+  "utm_x": 751778.4,
+  "utm_y": 3932207.9,
+  "area_px": 106,
+  "length_m": 130.0,
+  "width_m": 89.0,
+  "peak_db": 4.11,
+  "mean_db": -3.56,
+  "vh_bright_frac": 1.0,
+  "dist_port_m": 472.0,
+  "demerged": true,
+  "sl": [
+   870,
+   952,
+   692,
+   797
+  ],
+  "zone": 1
+ }
+]

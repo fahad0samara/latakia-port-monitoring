@@ -1,0 +1,8 @@
+{
+ "stats": {
+  "total_tracks": 2014,
+  "tracks_with_2plus": 733,
+  "mean_obs_per_track": 3.32,
+  "max_obs_per_track": 259
+ }
+}
