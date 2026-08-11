@@ -472,6 +472,13 @@ def main():
         d0 = good["dt"].min().date(); d1 = good["dt"].max().date()
         period = st.date_input("النطاق الزمني", value=(d0, d1), min_value=d0, max_value=d1,
                                format="YYYY-MM-DD", key="range")
+        if isinstance(period, tuple):
+            if len(period) == 2:
+                period = (period[0], period[1])
+            else:
+                period = (d0, d1)
+        else:
+            period = (period, period)
 
         st.markdown("#### المراقبة")
         sat = st.selectbox("القمر الصناعي",
