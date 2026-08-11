@@ -857,23 +857,35 @@ def main():
         _docs = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs")
         ex1, ex2, ex3, ex4, ex5 = st.columns(5, gap="small")
         with ex1:
-            with open(os.path.join(_docs, "PBI_REPORT.html"), "rb") as f:
-                st.download_button("تقرير Power BI تفاعلي (HTML)", f, file_name="PBI_REPORT.html",
-                                   mime="text/html", use_container_width=True)
+            try:
+                with open(os.path.join(_docs, "PBI_REPORT.html"), "rb") as f:
+                    st.download_button("تقرير Power BI تفاعلي (HTML)", f, file_name="PBI_REPORT.html",
+                                       mime="text/html", use_container_width=True)
+            except Exception:
+                st.info("غير متاح")
         with ex2:
-            with open(os.path.join(_docs, "FINAL_REPORT.xlsx"), "rb") as f:
-                st.download_button("مصنف Excel بالمخططات (XLSX)", f, file_name="FINAL_REPORT.xlsx",
-                                   mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                                   use_container_width=True)
+            try:
+                with open(os.path.join(_docs, "FINAL_REPORT.xlsx"), "rb") as f:
+                    st.download_button("مصنف Excel بالمخططات (XLSX)", f, file_name="FINAL_REPORT.xlsx",
+                                       mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                       use_container_width=True)
+            except Exception:
+                st.info("غير متاح")
         with ex3:
-            with open(os.path.join(_docs, "FINAL_REPORT.docx"), "rb") as f:
-                st.download_button("وثيقة Word الرسمية (DOCX)", f, file_name="FINAL_REPORT.docx",
-                                   mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                                   use_container_width=True)
+            try:
+                with open(os.path.join(_docs, "FINAL_REPORT.docx"), "rb") as f:
+                    st.download_button("وثيقة Word الرسمية (DOCX)", f, file_name="FINAL_REPORT.docx",
+                                       mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                       use_container_width=True)
+            except Exception:
+                st.info("غير متاح")
         with ex4:
-            with open(os.path.join(_docs, "FINAL_REPORT.pdf"), "rb") as f:
-                st.download_button("نسخة PDF للطباعة", f, file_name="FINAL_REPORT.pdf",
-                                   mime="application/pdf", use_container_width=True)
+            try:
+                with open(os.path.join(_docs, "FINAL_REPORT.pdf"), "rb") as f:
+                    st.download_button("نسخة PDF للطباعة", f, file_name="FINAL_REPORT.pdf",
+                                       mime="application/pdf", use_container_width=True)
+            except Exception:
+                st.info("غير متاح")
         with ex5:
             import zipfile as _z, io as _io
             _zbuf = _io.BytesIO()
